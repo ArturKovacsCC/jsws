@@ -3,7 +3,7 @@
 // arrays (and array functions, spread syntax)
 
 const chandra = {
-    age: 13,
+    age: 21,
     name: "Chandra Nalaar",
 };
 
@@ -23,6 +23,9 @@ birthday(chandra);
 console.log("age after", chandra.age);
 
 
+
+// CHANDRA:
+// https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/d/d5/Oath_of_Chandra.jpg/revision/latest/scale-to-width-down/1000?cb=20200808200325
 
 
 

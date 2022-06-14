@@ -3,13 +3,16 @@
 // functions, anonymous functions, arrow functions (function into arrow)
 // closures
 
+// Liliana Vess
+// https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/a/a9/Liliana_the_Necromancer.jpg/revision/latest?cb=20200807145701
+
 function spawnZombies(count) {
-    const ZOMBIE = "Corpse Knight";
-    let retVal = "";
+    const ZOMBIE = "Hunted Ghoul";
+    let result = "";
     for (let i = 0; i < count; i++) {
-        retVal += ZOMBIE + ", ";
+        result += ZOMBIE + ", ";
     }
-    return retVal;
+    return result;
 }
 
 const zombies = spawnZombies(3);
@@ -30,11 +33,13 @@ function getHinderFunction(powerDecrement) {
     }
 }
 
+// Diregraf Ghoul: 
+// https://c1.scryfall.com/file/scryfall-cards/large/front/b/9/b9cf8ad2-de95-417c-8808-83e60df9c007.jpg?1561757921
+
 // `disfigure` subtracts 1 from the value it gets as parameter
 const disfigure = getHinderFunction(1);
 
 const diregrafGhoulToughness = 2;
 const diregrafGhoulDisfiguredToughness = disfigure(diregrafGhoulToughness);
 console.log(diregrafGhoulDisfiguredToughness)
-
 
