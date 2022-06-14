@@ -30,7 +30,7 @@ function getHinderFunction(powerDecrement) {
     }
 }
 
-// disfigure subtracts 1 from its parameter
+// `disfigure` subtracts 1 from the value it gets as parameter
 const disfigure = getHinderFunction(1);
 
 const diregrafGhoulToughness = 2;
