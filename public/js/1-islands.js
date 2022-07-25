@@ -14,15 +14,6 @@ const object = {};
 
 
 
-
-
-// big int
-// const maxSafeIntBig = BigInt(Number.MAX_SAFE_INTEGER);
-// maxSafeIntBig + 1n === maxSafeIntBig + 2n
-// Number.MAX_SAFE_INTEGER + 1 == Number.MAX_SAFE_INTEGER + 2
-
-
-
 // let
 let mySpellCount = 6;
 console.log(mySpellCount);

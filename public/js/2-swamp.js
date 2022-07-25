@@ -18,12 +18,12 @@ function spawnZombies(count) {
 const zombies = spawnZombies(3);
 console.log(zombies);
 
-// counter target spell
-const couterSpell = function (targetSpell) {
-    console.log("Countering", targetSpell);
+// murder target creature
+const murder = function (targetCreature) {
+    console.log("Murdering", targetCreature);
 }
 
-const counterSpellArrow = targetSpell => console.log("Countering", targetSpell);
+const murderArrow = targetSpell => console.log("Murdering", targetSpell);
 
 // Returns a function that takes an argument and returns the argument + `powerIncement`
 function getHinderFunction(powerDecrement) {

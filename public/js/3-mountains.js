@@ -2,26 +2,44 @@
 // Objects, property subscript syntax (ie: myObj[“myProperty”]),
 // arrays (and array functions, spread syntax)
 
-const chandra = {
-    age: 21,
-    name: "Chandra Nalaar",
+// ---------------
+// intro objects
+
+const firebrand = {
+    toughness: 1,
+    power: 1,
+    name: "Fanatical Firebrand",
 };
 
-console.log(chandra.age);
-console.log(chandra["age"]);
+console.log(firebrand.power);
+console.log(firebrand["power"]);
 
-// chandra is const, so does this work?
-chandra.age = 15;
+const key = "power";
+console.log(firebrand[key]);
 
-function birthday(human) {
-    human.age += 1;
-    console.log("Happy birthday", human.name);
+// firebrand is const, so does this work?
+firebrand.power = 2;
+
+function increasePower(creature) {
+    creature.power += 1;
 }
 
-console.log("age before", chandra.age);
-birthday(chandra);
-console.log("age after", chandra.age);
+console.log("power before", firebrand.power);
+increasePower(firebrand);
+console.log("power after", firebrand.power);
 
+
+// ---------------
+// intro arrays
+
+const myNumbers = [1, 5, -3];
+for (const num of myNumbers) {
+    console.log(num);
+}
+const doubledNums = myNumbers.map(x => x*2);
+for (const num of doubledNums) {
+    console.log(num);
+}
 
 
 // CHANDRA:
@@ -69,6 +87,7 @@ console.log("Total toughness 2 is", totalToughness2(CHANDRAS_CREATURES));
 
 
 
+// spread syntax?
 
 
 
