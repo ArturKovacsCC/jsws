@@ -42,12 +42,7 @@ for (const num of doubledNums) {
 }
 
 
-// CHANDRA:
-// https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/d/d5/Oath_of_Chandra.jpg/revision/latest/scale-to-width-down/1000?cb=20200808200325
-
-
-
-const CHANDRAS_CREATURES = [
+const CREATURES = [
     {
         power: 2,
         toughness: 2,
@@ -60,7 +55,12 @@ const CHANDRAS_CREATURES = [
         power: 2,
         toughness: 3,
     },
-]
+];
+
+// TASK: write a function that returns the sum of toughness of the creatures.
+// An iterable object of creatures is given as an argument to the function
+
+// NOTE: (show the reduce function, and talk about functional )
 
 
 // Rolling Thunder deals X damage divided as you choose among any number of targets.

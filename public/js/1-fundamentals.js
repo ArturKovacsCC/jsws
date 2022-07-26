@@ -27,10 +27,22 @@ console.log(mySpellCount);
 // The == operator
 
 
-console.log("number equals string", number == "13");
+const num13 = 13;
+console.log("number equals string", num13 == "13");
 
 
 
+// arrays
+const words = [
+    "hello",
+    "hi",
+    "aloha",
+    "szia"
+]
+
+for (const word of words) {
+    console.log(word);
+}
 
 
 
