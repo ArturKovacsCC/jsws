@@ -39,13 +39,18 @@ const words = [
     "aloha",
     "szia"
 ]
-
 for (const word of words) {
     console.log(word);
 }
 
-
-
+const myNumbers = [1, 5, -3];
+for (const num of myNumbers) {
+    console.log(num);
+}
+const doubledNums = myNumbers.map(x => x*2);
+for (const num of doubledNums) {
+    console.log(num);
+}
 
 // Arcane Endevour: set a variable to a predifined value betwen 1-8
 // print "Learning spell" as many times as the variable

@@ -20,7 +20,7 @@ const destroyCreature = function (targetCreature) {
     console.log("Destroying", targetCreature);
 }
 
-const destroyCreature2 = targetSpell => console.log("Murdering", targetSpell);
+const destroyCreature2 = targetSpell => console.log("Destroying ", targetSpell);
 
 // Returns a function that takes an argument and returns the argument + `powerIncement`
 function getIncrementFunction(incrementBy) {
